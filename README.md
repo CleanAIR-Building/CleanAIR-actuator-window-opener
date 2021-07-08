@@ -4,7 +4,7 @@
 This repository contains the code for the window opener. 
 
 ## Setup
-![wiring](https://raw.githubusercontent.com/CleanAIR-Building/Report/main/diagrams/Wiring_Stepper-Motor.png?token=AH5OOFNWUOQ3DKIX5Y5Q36DA45IH6)
+![wiring](https://raw.githubusercontent.com/CleanAIR-Building/Report/main/diagrams/Wiring_Stepper-Motor.png?token=AH5OOFK6K3XFGOWGB4OEVF3A45JF6)
 
 Create a file called `data/Config.json`. It should look like this:
 
