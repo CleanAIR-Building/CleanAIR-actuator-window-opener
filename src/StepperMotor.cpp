@@ -32,12 +32,14 @@ StepperMotor::STATE StepperMotor::GetState() const { return mState; }
 
 void StepperMotor::Open() {
   const auto degrees = static_cast<float>(STATE::OPEN);
+  mStepper.stop();
   mStepper.moveTo(DegreesToSteps(degrees));
   mState = STATE::OPEN;
 }
 
 void StepperMotor::Close() {
   const auto degrees = static_cast<float>(STATE::CLOSE);
+  mStepper.stop();
   mStepper.moveTo(DegreesToSteps(degrees));
   mState = STATE::CLOSE;
 }
